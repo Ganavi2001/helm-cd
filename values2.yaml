@@ -1,0 +1,12 @@
+# values.yaml
+
+replicaCount: 3
+image:
+  repository: koutuk16/green
+  tag: stable
+  pullPolicy: IfNotPresent
+service:
+  type: ClusterIP
+  port: 80
+ingress:
+  enabled: false
